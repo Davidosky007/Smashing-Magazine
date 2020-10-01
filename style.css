@@ -36,8 +36,7 @@ html {
   width: 20rem;
   transition: all .4s ease-in;
   padding-top: 48px;
-  margin-left: 30px;
-  
+  margin-left: 30px;  
 }
 
 .main-nav-links li{
@@ -115,4 +114,124 @@ html {
   0 8px 16px -8px rgba(194, 61, 61, 0.3),
   0 -6px 16px -6px rgba(0, 0, 0, .025);
   transition: all .2s ease-in-out;
+}
+
+/* LATEST ARTICLES SECTION */
+
+.latest-articles{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background: red;*/
+  align-items: center;    
+  }
+
+.notify-article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border:1px solid; */
+  margin-top: 0px;
+  padding-top: 0px;
+  align-items: center;
+  background: -webkit-linear-gradient(to right, green, green 50.05%, pink 0%, pink );
+  background: -moz-linear-gradient(to right, green, green 50.05%, pink 0%, pink );
+  background: linear-gradient(to right, green, green 50.05%, pink 0%, pink );   
+}
+
+.notify-article h1{
+  font-size: 40px;
+  background: #fff;
+  /* border: 1px solid;   */
+  width: fit-content; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.first-notify{
+  margin-top: 40px;
+  padding: 10px 10px 0 10px;
+}
+
+.second-notify{
+  margin-bottom: 40px;
+  padding: 0px 10px 10px 10px;
+}
+
+.articles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);  
+  align-items: center;       
+}
+
+.article-wrapper {     
+  height: 500px;  
+  /* border: 1px solid;      */
+  text-align: left;   
+  margin: 0px 0px 0px 0px;
+  padding: 30px;
+}
+
+.article1 {
+  background:green;
+}
+
+.article2 {
+  background:pink;
+}
+
+.article3 {
+  background:yellow;
+}
+.article4 {
+  background:gray;
+}
+
+
+.author {
+  display: inline-flex;       
+  /* border: 1px solid;   */
+  margin-bottom: 20px;  
+} 
+.photo{
+  border: solid white;  
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+}
+
+.photo img{
+  width: 75px;
+  height: 75px;    
+}
+
+.name{
+  display: inline-flex;
+  margin-left: 10px;  
+  font-size: 18px;
+}
+
+.name h3 {
+  padding-left: 5px;
+}
+
+.article-title {    
+  font-family: sans-serif;
+  font-weight: bold; 
+  font-size: 40px;
+  /* border: 1px solid;    */
+  line-height: 1.5em; 
+  margin-bottom: 50px; 
+}
+
+.links{
+  display: inline-flex;
+  /* border: 1px solid;     */
+}
+
+.links p{
+  margin-right: 40px;
+  font-size: 15px;
 }
