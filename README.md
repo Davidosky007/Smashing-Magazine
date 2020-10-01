@@ -13,7 +13,7 @@ This is our version of the heat map of the Smashing Magazine's home page.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://davidosky007.github.io/Smashing-Magazine)
 
 ## Getting Started
 
