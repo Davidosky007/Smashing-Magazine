@@ -1,0 +1,118 @@
+/* CSS RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+body,
+html {
+  background-color: #727272;
+  min-height: 1440px;
+  font-size: 62.5%;
+}
+
+/* MAIN SECTION */
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 1rem 2em;
+  background-color: rgb(158, 155, 155);
+  text-align: center;
+}
+
+.primary-nav{
+  display: flex;
+  list-style: none;
+}
+
+.main-logo{
+  height: 8rem;
+  width: 20rem;
+  transition: all .4s ease-in;
+  padding-top: 48px;
+  margin-left: 30px;
+  
+}
+
+.main-nav-links li{
+  display: inline-block;
+  list-style: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main-nav-links a{
+  color: #fff;
+  font-size: 2.3rem;
+  margin-right: 1.2rem;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
+  font-weight: 800;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+.btn-nav-links{
+  background-color: #727272;
+  border-radius: 11px;
+  color: #fff;
+  padding: 3px;
+  align-content: center;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-nav-links:active{
+  /* color: #666; */
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px gba(0, 0, 0, .2);
+}
+
+.nav-links:hover{
+  /* color: rgb(92, 88, 88); */
+  background-color: rgba(0, 0, 0, .15);
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px gba(0, 0, 0, .2);
+}
+
+.btn-text{
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.btn-nav-links img{
+  width: 3rem;
+  align-items: center;
+}
+
+.search-bar{
+  position: relative;
+}
+
+#search-sect{
+  padding-left: 6rem;
+  background-image: url(./images/search-icon.svg) ;
+  background-repeat: no-repeat;
+  background-size: 22px auto;
+  background-position: .75em 50%;
+  font-size: 2rem;
+  border-radius: 11px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25),
+  0 8px 16px -8px rgba(194, 61, 61, 0.3),
+  0 -6px 16px -6px rgba(0, 0, 0, .025);
+  transition: all .2s ease-in-out;
+}
