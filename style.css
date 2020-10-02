@@ -175,7 +175,6 @@ small {
 
 .article-wrapper {
   height: 500px;
-  /* border: 1px solid;      */
   text-align: left;
   margin: 0px 0px 0px 0px;
   padding: 30px;
@@ -200,7 +199,6 @@ small {
 
 .author {
   display: inline-flex;
-  /* border: 1px solid;   */
   margin-bottom: 20px;
 }
 
@@ -242,17 +240,127 @@ small {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 40px;
-  /* border: 1px solid;    */
   line-height: 1.5em;
   margin-bottom: 50px;
 }
 
 .links {
   display: inline-flex;
-  /* border: 1px solid;     */
 }
 
 .links p {
   margin-right: 40px;
   font-size: 15px;
+}
+
+.arrow-link{
+  font-size: 5rem;
+  color: #fff;
+  position: absolute;
+  bottom: -18rem;
+}
+
+.arrow-link-1{
+  font-size: 5rem;
+  color: #fff;
+  position: absolute;
+  bottom: -70rem;
+}
+
+.membership{
+  padding: 1.5em 0;
+  color: #fff;
+  position: relative;
+  background-color: #535355;
+}
+
+.membership-container{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* max-width: 55em; */
+}
+
+.membership-text{
+  width: 50%;
+  margin: 50px;
+  line-height: 2rem;
+  font-size: 2rem;
+  padding-right: 4em;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.membership-parag{
+  font-size: 20px;
+  line-height: 32.9px;
+}
+
+.membership-parag a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.mem-list-main{
+  margin: 40px;
+  line-height:15px ;
+  font-size: 18px;
+  line-height: 32.9px;
+  list-style: decimal;
+}
+
+.mem-list-main li::before {
+  content: "\2022"; 
+  color: #fff; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em; 
+}
+
+.mem-list-main a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.cat-firechat{
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  transform: rotate(-20deg);
+  transform-origin: left bottom;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2rem 4rem;
+  transition: all 0.2s ease-out 0s;
+  background-color: transparent;
+  position: relative;
+  z-index: 20;
+}
+
+.cat-firechat:hover{
+  transform: rotate(0deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
+  z-index: 10;  
+}
+
+.membership-btn{
+  background-color: #333232;
+  margin: 0.75em;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 308px;
+}
+
+.membership-btn:hover{
+  background-color: #727272;
+  transition: all 0.4s ease-out 0s;
+}
+
+.mem-img{
+  background-color: transparent;
 }
