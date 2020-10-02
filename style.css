@@ -175,9 +175,9 @@ small {
 
 .article-wrapper {
   height: 500px;
-  text-align: left;
-  margin: 0px 0px 0px 0px;
-  padding: 30px;
+  text-align: left;  
+  padding: 80px;  
+  position: relative;  
 }
 
 .article1 {
@@ -255,16 +255,12 @@ small {
 
 .arrow-link{
   font-size: 5rem;
-  color: #fff;
-  position: absolute;
-  bottom: -18rem;
+  color: #fff;  
 }
 
-.arrow-link-1{
-  font-size: 5rem;
-  color: #fff;
+.arrow-section{
   position: absolute;
-  bottom: -70rem;
+  bottom: 6rem; 
 }
 
 .membership{
@@ -363,4 +359,183 @@ small {
 
 .mem-img{
   background-color: transparent;
+}
+
+
+/* Latest Posts Section */
+
+.latest-posts {  
+  height: 600px;
+  display: flex;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.post-wrapper{
+  height: 550px;
+  /* border: 1px solid; */
+  position: relative;
+  z-index: 10;
+  margin-right: -50px;
+}
+
+.post-wrapper:hover{
+  transform:scale(1.05) translateY(-0.5px);
+  transition: all 0.5s;   
+  z-index: 20;   
+  background-color: rgb(184, 180, 180);    
+}
+
+.post-intro{
+  font-size: 13px;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.post-intro h1 {
+  margin-bottom: 20px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-intro h1 a{
+  text-decoration:none;
+}
+.post-intro span{
+  color: rgb(59, 53, 53);
+}
+
+.post-intro h2 {
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+.post-author {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.post-arrow {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  position: absolute; 
+  bottom: 0px;
+  left: 0px;  
+  font-size: 20px;
+  align-items: center;  
+}
+
+.post-wrapper:hover .post-arrow {   
+  background-color: #333232;  
+  transition: all 0.5s; 
+}
+
+.post-wrapper:hover .post-title {   
+  color: rgb(105, 101, 101);
+}
+
+.post-author:hover {
+  color: lightgray;
+}
+
+.post-arrow a{
+  color: white;
+  font-size: 3.5rem; 
+  margin-left: 50px; 
+  margin-top: 10px; 
+}
+
+hr{
+  width: 18%;
+  margin-left: 21px;
+  color: gray;
+}
+
+/* Smashing Membership */
+
+.smashing {
+  width: 100%;
+  height: 600px;
+  display: flex;   
+  margin: 30px;
+}
+
+.support {
+  height: 100px;  
+  width: 30%;  
+  align-items: center;
+  text-align: center;
+}
+
+.shopify{
+  width: 86%;
+    height: 199px;
+    border: 1px solid;
+    border-radius: 11px;
+    margin-top: 33px;
+    margin-left: 38px;
+}
+
+.smashing-main{
+  display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 598px;
+    background: rgb(51, 50, 50);
+    border: 1px solid;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.image-link{
+  width: 25%;
+  background-color: transparent;
+}
+
+.smashing-main h1{
+  margin-top: 30px;
+  font-size: 5rem;
+  line-height: 2em;
+}
+
+.smashing-main h2{
+  margin: 30px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+.smashing-main button {
+  width: 28%;
+  height: 42px;
+  border-radius: 12px;
+  margin-bottom: 21px;
+  font-size: 2rem;
+}
+
+.smashing-main span{
+  font-size: 16px;
+  color: white;
+}
+
+.smashing-main a{
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* smashing tv */
+
+.smashing .post-wrapper{    
+  width: 30%;  
+  height: 600px;
+  margin-right: -30px;  
 }
