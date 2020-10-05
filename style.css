@@ -13,7 +13,6 @@ html {
   min-height: 1440px;
   font-size: 62.5%;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 /* MAIN SECTION */
@@ -758,15 +757,3 @@ hr {
 }
 
 /* MAIN-DESIGN-SECTION */
-.main-design-sect {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(105, 105, 105);
-  color: #fff;
-  font-size: 2rem;
-}
-
-.main-design-left {
-  width: 60%;
-
-}
