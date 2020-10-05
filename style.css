@@ -12,6 +12,7 @@ html {
   background-color: #727272;
   min-height: 1440px;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 /* MAIN SECTION */
@@ -538,4 +539,142 @@ hr{
   width: 30%;  
   height: 600px;
   margin-right: -30px;  
+}
+
+
+/* Community links */
+
+.community-links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px; 
+  background: rgb(134, 132, 132);  
+}
+
+.person-of-week{
+  display: flex;
+  width: 80%;
+  margin-top: 90px;
+  margin-left: 125px;
+} 
+
+.communtities {
+  width: 84%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:initial;  
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+
+.community-wrapper{
+  display: inline-flex;
+  width: 90%;
+}
+
+.community{
+  height: 380px;
+  text-align: left;  
+  width: 60;  
+}
+
+.community-author{
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+.community-photo {
+  border: solid white;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  transform: rotate(-20deg);
+  transform-origin: left bottom;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2rem 4rem;
+  transition: all 0.2s ease-out 0s;
+  margin-right: 10px;
+}
+
+.community-photo:hover {
+  transform: rotate(0deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
+}
+
+.person-of-week .community-photo {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.community-name {
+  display: inline-flex;
+  font-size: 18px;
+}  
+
+.community-article {  
+  margin-bottom: 20px;
+}
+
+.community-links h2{
+  font-weight: 100;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+
+/* footer section */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(77, 70, 70);
+  height: 500px; 
+  align-items: center;
+  color: white;
+}
+
+.browse {
+  font-size: 15px;
+}
+
+.footer-list{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  max-width: 80%;    
+}            
+
+.footer div{
+  width: fit-content;
+  padding: 2px;
+  margin-right: 12px;
+  margin-left: 10px;
+}
+
+
+.footer-list li{  
+  list-style: none;  
+  font-size: 26px;
+}
+
+.footer-list li::before{  
+  content: "\2022";
+    color: rgb(207, 201, 201);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.statement{
+  display:flex;
+  flex-direction: column;
+  font-size: 20px;
 }
