@@ -644,56 +644,7 @@ hr {
 }
 
 
-/* footer section */
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  background: rgb(77, 70, 70);
-  height: 500px;
-  align-items: center;
-  color: white;
-}
-
-.browse {
-  font-size: 15px;
-}
-
-.footer-list {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  max-width: 80%;
-}
-
-.footer div {
-  width: fit-content;
-  padding: 2px;
-  margin-right: 12px;
-  margin-left: 10px;
-}
-
-
-.footer-list li {
-  list-style: none;
-  font-size: 26px;
-}
-
-.footer-list li::before {
-  content: "\2022";
-  color: rgb(207, 201, 201);
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-
-.statement {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-}
 
 /* MAIN TABLE CONTENTS SECTION */
 .main-table-contents-section {
@@ -757,3 +708,203 @@ hr {
 }
 
 /* MAIN-DESIGN-SECTION */
+
+
+
+/* <!-- Our guides section --> */
+
+.our-guides{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  margin: 35px;
+}
+
+.guide{
+  width: 40%;
+  height: auto;  
+  border-radius: 15px;  
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  background: white;  
+  color: black;
+} 
+.guide h1{
+  margin-bottom: 40px;
+  color: black;
+}
+
+.guide p{
+  margin-bottom: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: black;
+}
+
+.guide-link{
+  text-decoration: underline;  
+  margin-bottom: 20px;
+}
+
+h1 .guide-color1{
+  color: #333232;
+}
+h1 .guide-color2{
+  color: #535355;
+}
+h1 .guide-color3{
+  color: #9a9a9f;
+}
+h1 .guide-color4{
+  color: #6B6B6B;
+}
+
+button .guide-color1{
+  background-color: #333232;
+}
+button .guide-color2{
+  background-color: #535355;
+}
+button .guide-color3{
+  background-color: #9a9a9f;
+}
+button .guide-color4{
+  background-color: #6B6B6B;
+}
+
+.guide button{
+  font-size: 20px;
+  padding: 14px;
+  font-family: sans-serif;
+  font-weight: 800;
+  border-radius: 10px;
+  background: rgb(87, 84, 84);
+}
+
+.email-section {
+  background: #a5a2a2;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  width: 90%;  
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;  
+  background: white;
+}
+
+.guide img{
+  width: calc(100% + 60px);
+  margin-left: -30px;
+}
+
+.email form{
+  height: inherit;
+  width: 65%;
+  
+}
+
+.email input{
+  font-size: 20px;
+  height: 30px;
+  width: 90%; 
+  margin: 10px;
+  border: none;
+}
+
+.email input:focus{
+  outline: none;
+}
+
+.email button{  
+  width: 35%;
+  border-radius: 0;
+}
+
+.email-link {
+  margin-top: 30px; 
+}
+
+.email-last{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(77, 70, 70);
+  height: auto;
+  align-items: center;
+  color: white;
+}
+
+.browse {
+  font-size: 15px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  max-width: 90%;
+  margin-bottom: 70px;
+}
+
+.footer div {
+  
+  padding: 2px;
+  margin-right: 12px;
+  margin-left: 10px;
+}
+
+.footer-list a{
+  font-size: 24px;
+  color: white;
+  margin-left: 9px;
+}
+
+.statement {  
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 30px;    
+  
+}
+
+/* .statement span{
+  
+} */
+
+.statement a{
+  color: white;
+  text-decoration: underline;
+}  
+
+.footer-links{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  max-width: 50%;
+  font-size: 19px;
+  line-height: 2.5em;
+}
+
+.footer-links a{
+  margin-right: 5px;
+  text-decoration: underline;
+  color: white;
+}
