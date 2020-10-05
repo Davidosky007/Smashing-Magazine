@@ -289,7 +289,7 @@ small {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .membership-parag {
@@ -368,7 +368,7 @@ small {
 .latest-posts {
   height: 600px;
   display: flex;
-  margin-right: 60px;
+  margin-right: 45px;
   margin-top: 20px;
   margin-left: 10px;
 }
