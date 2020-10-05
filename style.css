@@ -13,6 +13,7 @@ html {
   min-height: 1440px;
   font-size: 62.5%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* MAIN SECTION */
@@ -176,9 +177,9 @@ small {
 
 .article-wrapper {
   height: 500px;
-  text-align: left;  
-  padding: 80px;  
-  position: relative;  
+  text-align: left;
+  padding: 80px;
+  position: relative;
 }
 
 .article1 {
@@ -254,24 +255,24 @@ small {
   font-size: 15px;
 }
 
-.arrow-link{
+.arrow-link {
   font-size: 5rem;
-  color: #fff;  
+  color: #fff;
 }
 
-.arrow-section{
+.arrow-section {
   position: absolute;
-  bottom: 6rem; 
+  bottom: 6rem;
 }
 
-.membership{
+.membership {
   padding: 1.5em 0;
   color: #fff;
   position: relative;
   background-color: #535355;
 }
 
-.membership-container{
+.membership-container {
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
@@ -279,52 +280,52 @@ small {
   /* max-width: 55em; */
 }
 
-.membership-text{
+.membership-text {
   width: 50%;
   margin: 50px;
   line-height: 2rem;
   font-size: 2rem;
   padding-right: 4em;
   box-sizing: border-box;
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding-top: 2rem;
   padding-left: 2rem;
 }
 
-.membership-parag{
+.membership-parag {
   font-size: 20px;
   line-height: 32.9px;
 }
 
-.membership-parag a{
+.membership-parag a {
   color: #fff;
   text-decoration: underline;
 }
 
-.mem-list-main{
+.mem-list-main {
   margin: 40px;
-  line-height:15px ;
+  line-height: 15px;
   font-size: 18px;
   line-height: 32.9px;
   list-style: decimal;
 }
 
 .mem-list-main li::before {
-  content: "\2022"; 
-  color: #fff; 
-  font-weight: bold; 
-  display: inline-block; 
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
   width: 1em;
-  margin-left: -1em; 
+  margin-left: -1em;
 }
 
-.mem-list-main a{
+.mem-list-main a {
   color: #fff;
   text-decoration: underline;
 }
 
-.cat-firechat{
+.cat-firechat {
   -o-object-fit: cover;
   object-fit: cover;
   display: block;
@@ -337,13 +338,13 @@ small {
   z-index: 20;
 }
 
-.cat-firechat:hover{
+.cat-firechat:hover {
   transform: rotate(0deg);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
-  z-index: 10;  
+  z-index: 10;
 }
 
-.membership-btn{
+.membership-btn {
   background-color: #333232;
   margin: 0.75em;
   font-size: 2rem;
@@ -353,19 +354,19 @@ small {
   width: 308px;
 }
 
-.membership-btn:hover{
+.membership-btn:hover {
   background-color: #727272;
   transition: all 0.4s ease-out 0s;
 }
 
-.mem-img{
+.mem-img {
   background-color: transparent;
 }
 
 
 /* Latest Posts Section */
 
-.latest-posts {  
+.latest-posts {
   height: 600px;
   display: flex;
   margin-right: 60px;
@@ -373,7 +374,7 @@ small {
   margin-left: 10px;
 }
 
-.post-wrapper{
+.post-wrapper {
   height: 550px;
   /* border: 1px solid; */
   position: relative;
@@ -381,14 +382,14 @@ small {
   margin-right: -50px;
 }
 
-.post-wrapper:hover{
-  transform:scale(1.05) translateY(-0.5px);
-  transition: all 0.5s;   
-  z-index: 20;   
-  background-color: rgb(184, 180, 180);    
+.post-wrapper:hover {
+  transform: scale(1.05) translateY(-0.5px);
+  transition: all 0.5s;
+  z-index: 20;
+  background-color: rgb(184, 180, 180);
 }
 
-.post-intro{
+.post-intro {
   font-size: 13px;
   margin-left: 50px;
   margin-right: 30px;
@@ -397,14 +398,15 @@ small {
 }
 
 .post-intro h1 {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.post-intro h1 a{
-  text-decoration:none;
+.post-intro h1 a {
+  text-decoration: none;
 }
-.post-intro span{
+
+.post-intro span {
   color: rgb(59, 53, 53);
 }
 
@@ -425,19 +427,19 @@ small {
   display: flex;
   height: 120px;
   width: 120px;
-  position: absolute; 
+  position: absolute;
   bottom: 0px;
-  left: 0px;  
+  left: 0px;
   font-size: 20px;
-  align-items: center;  
+  align-items: center;
 }
 
-.post-wrapper:hover .post-arrow {   
-  background-color: #333232;  
-  transition: all 0.5s; 
+.post-wrapper:hover .post-arrow {
+  background-color: #333232;
+  transition: all 0.5s;
 }
 
-.post-wrapper:hover .post-title {   
+.post-wrapper:hover .post-title {
   color: rgb(105, 101, 101);
 }
 
@@ -445,14 +447,14 @@ small {
   color: lightgray;
 }
 
-.post-arrow a{
+.post-arrow a {
   color: white;
-  font-size: 3.5rem; 
-  margin-left: 50px; 
-  margin-top: 10px; 
+  font-size: 3.5rem;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
-hr{
+hr {
   width: 18%;
   margin-left: 21px;
   color: gray;
@@ -462,51 +464,51 @@ hr{
 
 .smashing {
   width: 100%;
-  height: 600px;
-  display: flex;   
+  height: 800px;
+  display: flex;
   margin: 30px;
 }
 
 .support {
-  height: 100px;  
-  width: 30%;  
+  height: 100px;
+  width: 30%;
   align-items: center;
   text-align: center;
 }
 
-.shopify{
+.shopify {
   width: 86%;
-    height: 199px;
-    border: 1px solid;
-    border-radius: 11px;
-    margin-top: 33px;
-    margin-left: 38px;
+  height: 199px;
+  border: 1px solid;
+  border-radius: 11px;
+  margin-top: 33px;
+  margin-left: 38px;
 }
 
-.smashing-main{
+.smashing-main {
   display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 598px;
-    background: rgb(51, 50, 50);
-    border: 1px solid;
-    border-radius: 16px;
-    align-items: center;
-    text-align: center;
+  flex-direction: column;
+  width: 60%;
+  height: 598px;
+  background: rgb(51, 50, 50);
+  border: 1px solid;
+  border-radius: 16px;
+  align-items: center;
+  text-align: center;
 }
 
-.image-link{
+.image-link {
   width: 25%;
   background-color: transparent;
 }
 
-.smashing-main h1{
+.smashing-main h1 {
   margin-top: 30px;
   font-size: 5rem;
   line-height: 2em;
 }
 
-.smashing-main h2{
+.smashing-main h2 {
   margin: 30px;
   padding-left: 75px;
   padding-right: 75px;
@@ -522,12 +524,12 @@ hr{
   font-size: 2rem;
 }
 
-.smashing-main span{
+.smashing-main span {
   font-size: 16px;
   color: white;
 }
 
-.smashing-main a{
+.smashing-main a {
   color: white;
   text-decoration: underline;
 }
@@ -535,53 +537,68 @@ hr{
 
 /* smashing tv */
 
-.smashing .post-wrapper{    
-  width: 30%;  
+.smashing .post-wrapper {
+  width: 30%;
   height: 600px;
-  margin-right: -30px;  
+  margin-right: -30px;
 }
 
+.lastest-arti {
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: -748px;
+  left: -583px;
+  color: #fff;
+  border-bottom: solid 5px #141414;
+}
+
+.lastest-arti::after {
+  content: '  ';
+}
 
 /* Community links */
 
-.community-links{
+.community-links {
   width: 100%;
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 13px; 
-  background: rgb(134, 132, 132);  
+  font-size: 13px;
+  background: rgb(134, 132, 132);
 }
 
-.person-of-week{
+.person-of-week {
   display: flex;
   width: 80%;
   margin-top: 90px;
   margin-left: 125px;
-} 
+}
 
 .communtities {
   width: 84%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:initial;  
+  grid-template-rows: initial;
   align-items: center;
   margin-top: 90px;
   margin-left: 90px;
 }
 
-.community-wrapper{
+.community-wrapper {
   display: inline-flex;
   width: 90%;
 }
 
-.community{
+.community {
   height: 380px;
-  text-align: left;  
-  width: 60;  
+  text-align: left;
+  width: 60;
 }
 
-.community-author{
+.community-author {
   display: inline-flex;
   margin-bottom: 15px;
 }
@@ -615,13 +632,13 @@ hr{
 .community-name {
   display: inline-flex;
   font-size: 18px;
-}  
+}
 
-.community-article {  
+.community-article {
   margin-bottom: 20px;
 }
 
-.community-links h2{
+.community-links h2 {
   font-weight: 100;
   margin-bottom: 30px;
   line-height: 1.5em;
@@ -634,7 +651,7 @@ hr{
   display: flex;
   flex-direction: column;
   background: rgb(77, 70, 70);
-  height: 500px; 
+  height: 500px;
   align-items: center;
   color: white;
 }
@@ -643,14 +660,14 @@ hr{
   font-size: 15px;
 }
 
-.footer-list{
+.footer-list {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  max-width: 80%;    
-}            
+  max-width: 80%;
+}
 
-.footer div{
+.footer div {
   width: fit-content;
   padding: 2px;
   margin-right: 12px;
@@ -658,23 +675,98 @@ hr{
 }
 
 
-.footer-list li{  
-  list-style: none;  
+.footer-list li {
+  list-style: none;
   font-size: 26px;
 }
 
-.footer-list li::before{  
+.footer-list li::before {
   content: "\2022";
-    color: rgb(207, 201, 201);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+  color: rgb(207, 201, 201);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 
-.statement{
-  display:flex;
+.statement {
+  display: flex;
   flex-direction: column;
   font-size: 20px;
+}
+
+/* MAIN TABLE CONTENTS SECTION */
+.main-table-contents-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #333232;
+}
+
+.first-contents-span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 25px;
+}
+
+.header-table-content a {
+  color: #fff;
+  text-decoration: underline #666;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+
+.table-contents-para {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.table-link-1 {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #787878;
+  padding: 13px;
+  border-radius: 6px;
+  width: 25rem;
+  margin: 0 auto;
+}
+
+.homepage-illus {
+  width: 80rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* MAIN-DESIGN-SECTION */
+.main-design-sect {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(105, 105, 105);
+  color: #fff;
+  font-size: 2rem;
+}
+
+.main-design-left {
+  width: 60%;
+
 }
