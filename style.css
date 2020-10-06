@@ -847,6 +847,7 @@ button .guide-color4 {
 /* footer section */
 
 .footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: rgb(77, 70, 70);
@@ -974,4 +975,41 @@ button .guide-color4 {
 
 .main-design-right img:hover {
   transform: rotate(0deg);
+}
+
+.cat{
+  position: absolute;
+  width: 190px;  
+  bottom: 50px;
+  right: 50px;  
+}
+
+
+.laptop{
+  position: absolute;
+  width: 160px;  
+  bottom: 50px;
+  left: 50px;  
+}
+  
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  background: lightgray;
+  width: 51px;
+  height: 45px;
+  border-radius: 7px;
+}
+
+.back-to-top:hover{
+  background: darkgray;
+}
+
+.back-to-top .iconify{
+  margin-left: 7px;
+  font-size: 39px;
+  color: darkslategray;
 }
