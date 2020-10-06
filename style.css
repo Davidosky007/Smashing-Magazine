@@ -437,8 +437,21 @@ small {
   color: white;
 }
 
+.guide a {
+  font-size: 20px;
+  padding: 14px;
+  font-family: sans-serif;
+  font-weight: 800;
+  border-radius: 10px;
+  background: rgb(87, 84, 84);
+}
+
 .post-intro h1 a {
   text-decoration: none;
+}
+
+.post-intro h6 {
+  color: rgb(59, 53, 53);
 }
 
 .post-intro span {
@@ -550,26 +563,26 @@ hr {
   width: fit-content;
   height: 42px;
   border-radius: 12px;
-  padding-left: 10px;  
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: 8px;
-  background-color: lightgray;  
+  background-color: lightgray;
 }
 
 .smashing-main .explore {
-  font-size: 2rem; 
+  font-size: 2rem;
   text-decoration: none;
   margin-right: 5px;
   margin-top: 5px;
 }
 
-.features-link:hover{
+.features-link:hover {
   cursor: pointer;
-} 
+}
 
-.features-link:hover .explore{  
+.features-link:hover .explore {
   color: gray;
-} 
+}
 
 .smashing-main span {
   font-size: 16px;
@@ -577,7 +590,7 @@ hr {
   margin-top: 9px;
 }
 
-.features-link:hover .smashing-main span{
+.features-link:hover .smashing-main span {
   color: gray;
 }
 
@@ -761,7 +774,7 @@ hr {
   padding: 30px;
   margin-left: 30px;
   margin-bottom: 50px;
-  background: white;
+  background: rgb(190, 189, 189);
   color: black;
 }
 
@@ -781,48 +794,49 @@ hr {
   text-decoration: underline;
   margin-bottom: 20px;
   font-family: 'Cabin', sans-serif;
-
+  color: rgb(211, 205, 205);
+  background: transparent;
 }
 
-h1 .guide-color1 {
+.guide .guide-link {
+  background: none;
   color: #333232;
 }
 
-h1 .guide-color2 {
-  color: #535355;
+.guide-color1 {
+  color: #333232;
 }
 
-h1 .guide-color3 {
-  color: #9a9a9f;
-}
-
-h1 .guide-color4 {
-  color: #6b6b6b;
-}
-
-button .guide-color1 {
+a .guide-color1 {
   background-color: #333232;
 }
 
-button .guide-color2 {
+.guide-color1:hover {
+  color: #888;
+}
+
+.guide-color2 {
+  color: #333232;
+}
+
+.guide-color3 {
+  color: #333232;
+}
+
+.guide-color4 {
+  color: #333232;
+}
+
+a .guide-color2 {
   background-color: #535355;
 }
 
-button .guide-color3 {
+a .guide-color3 {
   background-color: #9a9a9f;
 }
 
-button .guide-color4 {
+a .guide-color4 {
   background-color: #6b6b6b;
-}
-
-.guide button {
-  font-size: 20px;
-  padding: 14px;
-  font-family: sans-serif;
-  font-weight: 800;
-  border-radius: 10px;
-  background: rgb(87, 84, 84);
 }
 
 .email-section {
@@ -863,7 +877,8 @@ button .guide-color4 {
 
 .email button {
   width: 35%;
-  border-radius: 0;
+  border-radius: 4px;
+  background-color: gray;
 }
 
 .email-link {
