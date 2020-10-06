@@ -7,8 +7,9 @@ This is our version of the heat map of the Smashing Magazine's home page.
 
 - HTML
 - CSS
+- Google Fonts
 
- <img src="">
+ <img src="./images/smashing-screenshot.jpg">
 
 
 ## Live Demo
@@ -37,7 +38,7 @@ To get local copy up and running just clone the Repository.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Davidosky007/Smashing-Magazine/issues).
 
 ## Show your support
 

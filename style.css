@@ -375,7 +375,6 @@ small {
 
 .post-wrapper {
   height: 550px;
-  /* border: 1px solid; */
   position: relative;
   z-index: 10;
   margin-right: -50px;
@@ -710,10 +709,9 @@ hr {
 /* MAIN-DESIGN-SECTION */
 
 
-
 /* <!-- Our guides section --> */
 
-.our-guides{
+.our-guides {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -722,60 +720,67 @@ hr {
   margin: 35px;
 }
 
-.guide{
+.guide {
   width: 40%;
-  height: auto;  
-  border-radius: 15px;  
+  height: auto;
+  border-radius: 15px;
   padding: 30px;
   margin-left: 30px;
   margin-bottom: 50px;
-  background: white;  
+  background: white;
   color: black;
-} 
-.guide h1{
+}
+
+.guide h1 {
   margin-bottom: 40px;
   color: black;
 }
 
-.guide p{
+.guide p {
   margin-bottom: 35px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 100;
   color: black;
 }
 
-.guide-link{
-  text-decoration: underline;  
+.guide-link {
+  text-decoration: underline;
   margin-bottom: 20px;
 }
 
-h1 .guide-color1{
+h1 .guide-color1 {
   color: #333232;
 }
-h1 .guide-color2{
+
+h1 .guide-color2 {
   color: #535355;
 }
-h1 .guide-color3{
+
+h1 .guide-color3 {
   color: #9a9a9f;
 }
-h1 .guide-color4{
+
+h1 .guide-color4 {
   color: #6B6B6B;
 }
 
-button .guide-color1{
+button .guide-color1 {
   background-color: #333232;
 }
-button .guide-color2{
+
+button .guide-color2 {
   background-color: #535355;
 }
-button .guide-color3{
+
+button .guide-color3 {
   background-color: #9a9a9f;
 }
-button .guide-color4{
+
+button .guide-color4 {
   background-color: #6B6B6B;
 }
 
-.guide button{
+.guide button {
   font-size: 20px;
   padding: 14px;
   font-family: sans-serif;
@@ -791,46 +796,46 @@ button .guide-color4{
 .email {
   display: flex;
   flex-direction: row;
-  width: 90%;  
+  width: 90%;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
   background: white;
 }
 
-.guide img{
+.guide img {
   width: calc(100% + 60px);
   margin-left: -30px;
 }
 
-.email form{
+.email form {
   height: inherit;
   width: 65%;
-  
+
 }
 
-.email input{
+.email input {
   font-size: 20px;
   height: 30px;
-  width: 90%; 
+  width: 90%;
   margin: 10px;
   border: none;
 }
 
-.email input:focus{
+.email input:focus {
   outline: none;
 }
 
-.email button{  
+.email button {
   width: 35%;
   border-radius: 0;
 }
 
 .email-link {
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
-.email-last{
+.email-last {
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
@@ -865,36 +870,36 @@ button .guide-color4{
 }
 
 .footer div {
-  
+
   padding: 2px;
   margin-right: 12px;
   margin-left: 10px;
 }
 
-.footer-list a{
+.footer-list a {
   font-size: 24px;
   color: white;
   margin-left: 9px;
 }
 
-.statement {  
+.statement {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  margin-bottom: 30px;    
-  
+  margin-bottom: 30px;
+
 }
 
 /* .statement span{
   
 } */
 
-.statement a{
+.statement a {
   color: white;
   text-decoration: underline;
-}  
+}
 
-.footer-links{
+.footer-links {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -903,8 +908,70 @@ button .guide-color4{
   line-height: 2.5em;
 }
 
-.footer-links a{
+.footer-links a {
   margin-right: 5px;
   text-decoration: underline;
   color: white;
+}
+
+.main-design-sect {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  padding: 30px 70px;
+  margin-top: 40px;
+  color: #fff;
+  margin-bottom: 3rem;
+  background: #333232;
+}
+
+.main-design-left h4 {
+  font-size: 18px;
+}
+
+.header-main-design {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.header-main-design h1 {
+  margin: 6px 0;
+}
+
+.main-design-left p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+
+}
+
+.btn-main-design-sect {
+  color: rgb(39, 38, 38);
+  font-size: 2rem;
+  border-radius: 15px;
+  padding: 17px;
+  margin: 20px;
+  background-color: rgb(209, 202, 202);
+
+}
+
+.main-design-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-design-right img {
+  width: 260px;
+  position: absolute;
+  bottom: 15px;
+  transform: rotate(-15deg);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+  background: transparent;
+}
+
+.main-design-right img:hover {
+  transform: rotate(0deg);
 }
