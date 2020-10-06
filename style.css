@@ -35,7 +35,7 @@ html {
 .main-logo {
   height: 8rem;
   width: 20rem;
-  transition: all .4s ease-in;
+  transition: all 0.4s ease-in;
   padding-top: 48px;
   margin-left: 30px;
 }
@@ -43,7 +43,6 @@ html {
 .main-nav-links li {
   display: inline-block;
   list-style: none;
-  padding: 1rem;
   color: #fff;
   font-size: 18px;
   line-height: 20px;
@@ -74,13 +73,13 @@ html {
 
 .btn-nav-links:active {
   border-radius: 11px;
-  box-shadow: 1px 1px 1px gba(0, 0, 0, .2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-links:hover {
-  background-color: rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 11px;
-  box-shadow: 1px 1px 1px gba(0, 0, 0, .2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .btn-text {
@@ -103,16 +102,17 @@ html {
   background-image: url(./images/search-icon.svg);
   background-repeat: no-repeat;
   background-size: 22px auto;
-  background-position: .75em 50%;
+  background-position: 0.75em 50%;
   font-size: 2rem;
   border-radius: 11px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, .25),
+  box-shadow:
+    0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(194, 61, 61, 0.3),
-    0 -6px 16px -6px rgba(0, 0, 0, .025);
-  transition: all .2s ease-in-out;
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  transition: all 0.2s ease-in-out;
 }
 
 /* LATEST ARTICLES SECTION */
@@ -138,11 +138,9 @@ small {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
   align-items: center;
-  background: -webkit-linear-gradient(to right, green, green 50.05%, pink 0%, #9a9a9f);
-  background: -moz-linear-gradient(to right, green, green 50.05%, pink 0%, #9a9a9f);
   background: linear-gradient(to right, #828287, #828287 50.05%, #787878 0%, #787878);
 }
 
@@ -157,12 +155,12 @@ small {
 .first-notify {
   margin-top: 40px;
   padding: 10px 10px 0 10px;
-  color: #666
+  color: #666;
 }
 
 .second-notify {
   margin-bottom: 40px;
-  padding: 0px 10px 10px 10px;
+  padding: 0 10px 10px 10px;
   color: #666;
 }
 
@@ -190,13 +188,12 @@ small {
 }
 
 .article3 {
-  background: #6B6B6B;
+  background: #6b6b6b;
 }
 
 .article4 {
   background: #727272;
 }
-
 
 .author {
   display: inline-flex;
@@ -213,13 +210,13 @@ small {
   display: block;
   transform: rotate(-20deg);
   transform-origin: left bottom;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
   transition: all 0.2s ease-out 0s;
 }
 
 .photo:hover {
   transform: rotate(0deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
 }
 
 .photo img {
@@ -276,6 +273,7 @@ small {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
   /* max-width: 55em; */
 }
 
@@ -306,7 +304,6 @@ small {
   margin: 40px;
   line-height: 15px;
   font-size: 18px;
-  line-height: 32.9px;
   list-style: decimal;
 }
 
@@ -330,7 +327,7 @@ small {
   display: block;
   transform: rotate(-20deg);
   transform-origin: left bottom;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
   transition: all 0.2s ease-out 0s;
   background-color: transparent;
   position: relative;
@@ -339,7 +336,7 @@ small {
 
 .cat-firechat:hover {
   transform: rotate(0deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
   z-index: 10;
 }
 
@@ -361,7 +358,6 @@ small {
 .mem-img {
   background-color: transparent;
 }
-
 
 /* Latest Posts Section */
 
@@ -395,9 +391,49 @@ small {
   padding: 20px;
 }
 
+.post-arrow a {
+  color: white;
+  font-size: 3.5rem;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.smashing-main a {
+  color: white;
+  text-decoration: underline;
+}
+
 .post-intro h1 {
   margin-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-table-content a {
+  color: #fff;
+  text-decoration: underline #666;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+
+.footer-list a {
+  font-size: 24px;
+  color: white;
+  margin-left: 9px;
+}
+
+.statement a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-links a {
+  margin-right: 15px;
+  text-decoration: underline;
+  color: white;
 }
 
 .post-intro h1 a {
@@ -426,8 +462,8 @@ small {
   height: 120px;
   width: 120px;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   font-size: 20px;
   align-items: center;
 }
@@ -443,13 +479,6 @@ small {
 
 .post-author:hover {
   color: lightgray;
-}
-
-.post-arrow a {
-  color: white;
-  font-size: 3.5rem;
-  margin-left: 50px;
-  margin-top: 10px;
 }
 
 hr {
@@ -527,12 +556,6 @@ hr {
   color: white;
 }
 
-.smashing-main a {
-  color: white;
-  text-decoration: underline;
-}
-
-
 /* smashing tv */
 
 .smashing .post-wrapper {
@@ -593,7 +616,7 @@ hr {
 .community {
   height: 380px;
   text-align: left;
-  width: 60;
+  width: 344px;
 }
 
 .community-author {
@@ -611,14 +634,14 @@ hr {
   display: block;
   transform: rotate(-20deg);
   transform-origin: left bottom;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
   transition: all 0.2s ease-out 0s;
   margin-right: 10px;
 }
 
 .community-photo:hover {
   transform: rotate(0deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
 }
 
 .person-of-week .community-photo {
@@ -642,10 +665,8 @@ hr {
   line-height: 1.5em;
 }
 
-
-
-
 /* MAIN TABLE CONTENTS SECTION */
+
 .main-table-contents-section {
   display: flex;
   flex-direction: column;
@@ -661,17 +682,6 @@ hr {
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 25px;
-}
-
-.header-table-content a {
-  color: #fff;
-  text-decoration: underline #666;
-  font-size: 4rem;
-  text-align: center;
-  display: block;
-  line-height: 50px;
-  letter-spacing: 2px;
-  padding-bottom: 30px;
 }
 
 .table-contents-para {
@@ -707,7 +717,6 @@ hr {
 }
 
 /* MAIN-DESIGN-SECTION */
-
 
 /* <!-- Our guides section --> */
 
@@ -761,7 +770,7 @@ h1 .guide-color3 {
 }
 
 h1 .guide-color4 {
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 button .guide-color1 {
@@ -777,7 +786,7 @@ button .guide-color3 {
 }
 
 button .guide-color4 {
-  background-color: #6B6B6B;
+  background-color: #6b6b6b;
 }
 
 .guide button {
@@ -811,7 +820,6 @@ button .guide-color4 {
 .email form {
   height: inherit;
   width: 65%;
-
 }
 
 .email input {
@@ -864,55 +872,35 @@ button .guide-color4 {
 
 .footer-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-flow: row wrap;
   max-width: 90%;
   margin-bottom: 70px;
 }
 
 .footer div {
-
   padding: 2px;
   margin-right: 12px;
   margin-left: 10px;
 }
 
-.footer-list a {
-  font-size: 24px;
-  color: white;
-  margin-left: 9px;
-}
-
 .statement {
   display: flex;
+  text-align: center;
   flex-direction: column;
   font-size: 20px;
   margin-bottom: 30px;
-
-}
-
-/* .statement span{
-  
-} */
-
-.statement a {
-  color: white;
-  text-decoration: underline;
+  line-height: 3rem;
 }
 
 .footer-links {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   max-width: 50%;
   font-size: 19px;
   line-height: 2.5em;
-}
-
-.footer-links a {
-  margin-right: 5px;
-  text-decoration: underline;
-  color: white;
 }
 
 .main-design-sect {
@@ -943,7 +931,6 @@ button .guide-color4 {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 30px;
-
 }
 
 .btn-main-design-sect {
@@ -953,7 +940,6 @@ button .guide-color4 {
   padding: 17px;
   margin: 20px;
   background-color: rgb(209, 202, 202);
-
 }
 
 .main-design-right {
@@ -977,21 +963,19 @@ button .guide-color4 {
   transform: rotate(0deg);
 }
 
-.cat{
+.cat {
   position: absolute;
-  width: 190px;  
+  width: 190px;
   bottom: 50px;
-  right: 50px;  
+  right: 50px;
 }
 
-
-.laptop{
+.laptop {
   position: absolute;
-  width: 160px;  
+  width: 160px;
   bottom: 50px;
-  left: 50px;  
+  left: 50px;
 }
-  
 
 .back-to-top {
   position: fixed;
@@ -1002,13 +986,15 @@ button .guide-color4 {
   width: 51px;
   height: 45px;
   border-radius: 7px;
+  transform: rotate(-11deg);
 }
 
-.back-to-top:hover{
+.back-to-top:hover {
   background: darkgray;
+  transform: rotate(0deg);
 }
 
-.back-to-top .iconify{
+.back-to-top .iconify {
   margin-left: 7px;
   font-size: 39px;
   color: darkslategray;
