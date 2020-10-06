@@ -302,7 +302,7 @@ small {
 
 .mem-list-main {
   margin: 40px;
-  line-height: 15px;
+  line-height: 35px;
   font-size: 18px;
   list-style: decimal;
 }
@@ -417,6 +417,7 @@ small {
   line-height: 50px;
   letter-spacing: 2px;
   padding-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .footer-list a {
@@ -543,17 +544,41 @@ hr {
   line-height: 1.5em;
 }
 
-.smashing-main button {
-  width: 28%;
+.features-link {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
   height: 42px;
   border-radius: 12px;
-  margin-bottom: 21px;
-  font-size: 2rem;
+  padding-left: 10px;  
+  padding-right: 10px;
+  padding-top: 8px;
+  background-color: lightgray;  
 }
+
+.smashing-main .explore {
+  font-size: 2rem; 
+  text-decoration: none;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.features-link:hover{
+  cursor: pointer;
+} 
+
+.features-link:hover .explore{  
+  color: gray;
+} 
 
 .smashing-main span {
   font-size: 16px;
   color: white;
+  margin-top: 9px;
+}
+
+.features-link:hover .smashing-main span{
+  color: gray;
 }
 
 /* smashing tv */
@@ -755,6 +780,8 @@ hr {
 .guide-link {
   text-decoration: underline;
   margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+
 }
 
 h1 .guide-color1 {
