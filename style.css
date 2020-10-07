@@ -15,15 +15,24 @@ html {
   overflow-x: hidden;
 }
 
+h1,
+h2,
+h3,
+p,
+sup,
+small {
+  color: #fff;
+}
+
 /* General font styling */
 h1,
 h2,
 h3,
 a,
 .post-intro,
-.post-author, 
+.post-author,
 .community-links,
-.guide p{
+.guide p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -48,8 +57,9 @@ a,
   height: 8rem;
   width: 20rem;
   transition: all 0.4s ease-in;
-  padding-top: 48px;
-  margin-left: 30px;
+  padding-top: 42px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .main-nav-links li {
@@ -58,12 +68,13 @@ a,
   color: #fff;
   font-size: 18px;
   line-height: 20px;
+  margin-top: 30px;
 }
 
 .main-nav-links a {
   color: #fff;
-  font-size: 2.3rem;
-  margin-right: 1.2rem;
+  font-size: 2rem;
+  margin-right: 1rem;
   text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
   font-weight: 800;
   padding: 1rem;
@@ -71,6 +82,8 @@ a,
 }
 
 .btn-nav-links {
+  display: flex;
+  flex-direction: row;
   background-color: #727272;
   border-radius: 11px;
   color: #fff;
@@ -107,6 +120,7 @@ a,
 
 .search-bar {
   position: relative;
+  margin-left: 19px;
 }
 
 #search-sect {
@@ -125,6 +139,9 @@ a,
     0 8px 16px -8px rgba(194, 61, 61, 0.3),
     0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   transition: all 0.2s ease-in-out;
+  margin-top: 35px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 /* LATEST ARTICLES SECTION */
@@ -134,15 +151,6 @@ a,
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h1,
-h2,
-h3,
-p,
-sup,
-small {
-  color: #fff;
 }
 
 .notify-article {
@@ -160,7 +168,7 @@ small {
   font-size: 40px;
   background: #fff;
   font-weight: 700;
-  width: fit-content; 
+  width: fit-content;
 }
 
 .first-notify {
@@ -415,7 +423,7 @@ small {
 }
 
 .post-intro h1 {
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .header-table-content a {
@@ -470,12 +478,12 @@ small {
 }
 
 .post-intro h2 {
-  margin-top: 20px;  
+  margin-top: 20px;
   font-weight: 100;
   line-height: 32px;
 }
 
-.post-author {  
+.post-author {
   font-size: 15px;
   font-weight: 800;
 }
@@ -632,7 +640,7 @@ hr {
 .community-links {
   width: 100%;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   font-size: 13px;
   background: rgb(134, 132, 132);
 }
@@ -792,7 +800,7 @@ hr {
 }
 
 .guide p {
-  margin-bottom: 35px;  
+  margin-bottom: 35px;
   font-weight: 100;
   color: black;
 }
