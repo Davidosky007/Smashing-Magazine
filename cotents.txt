@@ -1,0 +1,31 @@
+Elements 
+1. Header 
+   - smashing magazine home 
+   - Other nav elements 
+   - Serach articles element 
+2. Latest Articsles
+   - Title 
+   - Heatmap switch (animated) 
+   - Articles 
+     - Photo (animated) and name 
+     - Article titles 
+     - Links
+     - Arrow 
+3. Smashing Membership 
+     - Descriptive texts
+     - About Membership button 
+     - Animated picture redirecting to the        about membership page 
+4. Latest posts 
+     - age of post 
+     - Title of the post 
+     - author 
+     - article 
+5. Explore membership features 
+6. Book Purchase 
+7. Community Links 
+   - Person of the week
+     - Big animated photo 
+   - 
+8. Featured smashing book 
+9. Our guides 
+10. Navigation Section 
